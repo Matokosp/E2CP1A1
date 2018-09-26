@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*DESAFIO 003 - EJERCICIO 1*/
+
+
+
+/*LETRA MAS GRANDE PARA QUE HAGA SCROLL Y SE NOTE EL NAVBAR FIXED*/
+
+p {
+	font-size: 1.4em;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+}
+
+
+
+
+
+.menu {
+	position: fixed;
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	height: 100px;
+}
+
+
+.menu ul {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.menu li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 20px;
+}
+
+
+.header {
+	padding: 100px 15px 20px 15px;
+}
+
+
+.box{
+	height: 100px;
+	padding: 5px;
+	background-color: gray;
+	box-sizing: border-box;
+
+}
+
+.inside-box {	
+	float: left;
+	width: 25%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.logo {
+	width: 100%;
+}
+
+
+
+
+
+/*DESAFIO 003 - EJERCICIO 2*/
+
+
+.elem {
+	width: 200px;
+	height: 200px;
+}
+.square1 {
+	background-color: rgba(255, 0, 0, .5);
+	z-index: 10;
+}
+.square2 {
+	background-color: rgba(0, 255, 0, .5);
+	left: 25px;
+	position: absolute;
+	top: 25px;
+	z-index: -5;
+}
+.square3 {
+	background-color: rgba(0, 0, 255, .5);
+	left: 50px;
+	position: absolute;
+	top: 50px;
+	z-index: -10;
+}
+
+
+
+
+/*DESAFIO 003 - EJERCICIO 3*/
+
+.banderas-container {
+	text-align: center;
+}
+
+.bandera {
+	float: left;
+	margin: 30px;
+
+}
+
+
+
+/*ESPAÑA*/
+
+
+.bandera-size {
+	width: 300px;
+	height: 200px;
+}
+
+.espana-red {
+	background-color: red;
+	height: 25%;
+}
+
+.espana-yellow {
+	background-color: yellow;
+	height: 50%;
+}
+
+
+/*DINAMARCA*/
+
+.dinamarca {
+	background-color: red;
+	position: relative;
+}
+
+.dinamarca-horz {
+	height: 100%;
+	width: 20px;
+	background-color: #fff;
+	position: absolute;
+	left: 20%;
+}
+
+.dinamarca-vert {
+	position: absolute;
+	background-color: #fff;
+	width: 100%;
+	height: 20px;
+	top: 45%;
+}
+
+
+/*EMIRATOS*/
+
+
+.emirato {
+	position: relative;
+}
+
+.emirato-green {
+	background-color: green;
+	width: 100%;
+	height: 33%;
+}
+
+.emirato-white {
+	background-color: #fff;
+	width: 100%;
+	height: 33%;
+}
+
+.emirato-black {
+	background-color: #000;
+	width: 100%;
+	height: 33%;
+}
+
+.emirato-red {
+	background-color: red;
+	height: 100%;
+	width: 60px;
+	position: absolute;
+	top: 0;
+}
+
+
+/*JAPON*/
+
+.japon {
+	border: solid 1px black;
+}
+
+.japon-sun {
+	width: 80px;
+	height: 80px;
+	background-color: red;
+	border-radius: 50px;
+	margin: 20% auto;
+}
+
+
+
+/*DESAFIO 003 - EJERCICIO 4*/
+
+.section-1 {
+	background-color:#b0ccab; 
+	padding:50px
+}
+
+.parrafo-2 {
+	position: relative;
+	left: 40px;
+}
+
+
+/*DESAFIO 003 - EJERCICIO 5*/
+
+.ejercicio-5 {
+	text-align: center;
+}
+
+.vr-img {
+	background-image: url(images/oferta_lente.jpg);
+	height: 400px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin: 0 auto;
+}
+
+.ribbon {
+	position: absolute;
+	top: 50px;
+	left: 30px;
+}
+
+
+
+/*DESAFIO 003 - EJERCICIO 6*/
+
+.ejercicio-6 {
+	text-align: center;
+}
+
+
+.battery-img {
+	background-image: url(images/oferta_lente.jpg);
+	height: 400px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin: 0 auto;
+}
+
+.despacho {
+	position: absolute;
+	width: 90px;
+	bottom:20px;
+	right: 20px;
+}
+
+
+/*DESAFIO 003 - EJERCICIO 7*/
+
+
+.ejercicio-7 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: right;
+}
